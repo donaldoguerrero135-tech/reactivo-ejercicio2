@@ -1,4 +1,3 @@
-package com.ejemplo;
 
 import reactor.core.publisher.Flux;
 
