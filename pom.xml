@@ -23,16 +23,16 @@
     </dependencies>
 
     <!-- Plugin para poder ejecutar la clase main con Maven -->
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <version>3.5.0</version>
-                <configuration>
-                    <mainClass>com.ejemplo.Ejercicio2</mainClass>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-</project>
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>3.5.0</version>
+            <configuration>
+                <mainClass>Ejercicio2</mainClass>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+
